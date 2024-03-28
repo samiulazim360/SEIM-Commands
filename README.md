@@ -8,3 +8,6 @@ gnupg-ring:/usr/share/keyrings/elasticsearch.gpg --import && chmod 644
 
 2. #echo "deb [signed-by=/usr/share/keyrings/elasticsearch.gpg]
 https://artifacts.elastic.co/packages/7.x/apt stable main" | tee /etc/apt/sources.list.d/elastic-7.x.list
+
+4
+#apt-get install lsb-release curl apt-transport-https zip unzip gnupg
